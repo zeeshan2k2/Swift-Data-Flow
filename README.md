@@ -1,8 +1,8 @@
 Forward Data Flow  
 
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward/DF%20forward%20-%20app%20icon.png" width="100" height="100">
-<img src="https://github.com/zeeshan2k2/Data-Flow/blob/main/Data%20Flow%20Forward/DF%20-%20main%20page.png" width="250" height="500">
-<img src="https://github.com/zeeshan2k2/Data-Flow/blob/main/Data%20Flow%20Forward/DF%20-%201.png" width="250" height="500">
+<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20forward%20-%20app%20icon.png" width="100" height="100">
+<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%20main%20page.png" width="250" height="500">
+<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%201.png" width="250" height="500">
 
 
 Backward Data Flow
