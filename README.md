@@ -21,19 +21,7 @@ Example: Implementing a delegate protocol to pass text from TextViewController t
 Forward Data Passing: Shows how to use direct property assignment for passing data forward.
 Backward Data Passing: Demonstrates using callback methods to pass data backward.
 Delegate Methods: Illustrates using delegate protocols for both forward and backward data passing.
-<h1>Usage</h1>
-Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-Open the Project
-
-Open the project in Xcode.
-Run the App
-
-Build and run the app to see examples of different data passing techniques in action.
-Explore the Examples
 
 
 
