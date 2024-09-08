@@ -24,7 +24,6 @@ Delegate Methods: Illustrates using delegate protocols for both forward and back
 
 
 
-
 <h1> ScreenShots </h1>
 
 **Forward Data Flow**
