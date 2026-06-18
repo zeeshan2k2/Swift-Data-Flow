@@ -1,41 +1,92 @@
-<h1>Data Passing in Swift Apps</h1>
-This repository contains examples of data passing techniques in Swift for iOS development. The focus is on demonstrating various methods for forwarding and backward data passing between view controllers.
+# Swift Data Flow
 
-<h1>Data Passing Techniques</h1>
-<h2>1. Direct Property Assignment (Forward Data Passing)</h2>
-Description: This method is used to set properties directly on a view controller before presenting it. It's straightforward and typically used for simple forward data passing.
+A learning-focused Swift repository exploring common data passing patterns used in UIKit applications. The project demonstrates both forward and backward communication between view controllers using practical examples.
 
-Example: Passing data from ViewController to TextViewController.
+---
 
-<h2>2. Callback-Based Data Passing (Backward Data Passing)</h2>
-Description: This method uses completion handlers (callbacks) to send data back to the previous view controller after it is dismissed. It's useful for handling results or updates after an action.
+## Overview
 
-Example: Sending text from TextViewController back to ViewController using a completion handler.
+This repository contains examples of different techniques used to pass data between view controllers in UIKit. The goal is to understand when each approach should be used and the trade-offs between direct property assignment, callbacks, and delegates.
 
-<h2>3. Delegate Methods (Both Forward and Backward Data Passing)</h2>
-Description: Delegates are a flexible way to handle communication between view controllers or objects. They allow for both forward and backward data passing with a decoupled approach.
+---
 
-Example: Implementing a delegate protocol to pass text from TextViewController to ViewController.
+## Notes
 
-<h1>Repository Structure</h1>
-Forward Data Passing: Shows how to use direct property assignment for passing data forward.
-Backward Data Passing: Demonstrates using callback methods to pass data backward.
-Delegate Methods: Illustrates using delegate protocols for both forward and backward data passing.
+<p>
+Detailed learning notes and experiments can be found here:<br>
+<a href="https://secretive-fascinator-c6c.notion.site/Data-Passing-in-Swift-UIKit-GitHub-2f1d7fcea35280e5a7a3c993ca07328d?source=copy_link">
+Data Passing in Swift UIKit Notes (Notion)
+</a>
+</p>
 
+---
 
+## Topics Covered
 
-<h1> ScreenShots </h1>
+- Forward Data Passing
+- Backward Data Passing
+- Direct Property Assignment
+- Callback-Based Communication
+- Delegate Pattern
+- View Controller Communication
+- UIKit Navigation Flows
+- Data Flow Best Practices
 
-**Forward Data Flow**
+---
 
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20forward%20-%20app%20icon.png" width="100" height="100">
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%20main%20page.png" width="250" height="500">
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%201.png" width="250" height="500">
+## Screenshots
 
+### Forward Data Flow
 
-**Backward Data Flow**
+<p align="center">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20forward%20-%20app%20icon.png" width="100" height="100">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%20main%20page.png" width="250" height="500">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Forward%20-%20Direct%20Property%20Assignment/DF%20-%201.png" width="250" height="500">
+</p>
 
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/Data%20Flow%20backward%20-%20appicon.png" width="100" height="100">
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%20main.png" width="250" height="500">
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%201.png" width="250" height="500">
-<img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%202.png" width="250" height="500">
+### Backward Data Flow
+
+<p align="center">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/Data%20Flow%20backward%20-%20appicon.png" width="100" height="100">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%20main.png" width="250" height="500">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%201.png" width="250" height="500">
+  <img src="https://github.com/zeeshan2k2/Swift-Data-Flow/blob/main/Data%20Flow%20Backward%20-%20Callback-Based%20Data%20Passing/DF%20-%202.png" width="250" height="500">
+</p>
+
+---
+
+## Techniques Demonstrated
+
+### 1. Direct Property Assignment
+
+A simple approach for passing data forward before presenting the destination view controller.
+
+### 2. Callback-Based Data Passing
+
+Uses completion handlers to send data back to the previous view controller after an action is completed.
+
+### 3. Delegate Pattern
+
+A flexible and commonly used UIKit pattern that enables communication between view controllers while maintaining loose coupling.
+
+---
+
+## Tech Stack
+
+- **Language:** Swift
+- **Framework:** UIKit
+- **Architecture Concepts:** Delegates, Closures, View Controller Communication
+
+---
+
+## Project Structure
+
+```text
+Swift-Data-Flow/
+├── Forward Data Passing
+│   └── Direct Property Assignment
+├── Backward Data Passing
+│   └── Callback-Based Communication
+├── Delegate Examples
+└── Supporting Files
+```
